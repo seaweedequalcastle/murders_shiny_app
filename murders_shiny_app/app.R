@@ -15,7 +15,7 @@
 # folder as app.R. Once the file exists you do not need to run it again,
 # and it must not run inside app.R when you deploy, so it is commented out (#).
 #
-install.packages("dslabs")   # package with the original murders data
+# install.packages("dslabs")   # package with the original murders data
 library(dslabs)
 data(murders)
 write.csv(murders, "murders.csv", row.names = FALSE)   # save in the same folder
